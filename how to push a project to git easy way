@@ -1,0 +1,21 @@
+HEY OPEN GIT BASH 
+
+
+JUST GO TO THE FOLDER LOCATION WHICH CONTAINS THE FILE U NEED TO UPLOAD TO THE GIT..
+EG.
+cd E:\
+cd automation\
+cd studies\
+ls
+[NOTE:USE TAB FOR AUTOCOMPLETION]
+[LS cmd will list all the files that are present]
+
+1) git init--- creates a git folder inside ur directory
+2) git add . ---- add all files in the directory 
+3) git commit -m "test" --- instead of test u can use any name
+4) git remote add origin https://github.com/Medhagit1/automateme.git
+  This above cmd will link our folder to the reqd. git repository
+5) git push -u origin master --- this will finally start adding the files to the
+      git account, u need to provide the github username and pwd to continue
+      
+ 6) git status ---you can check the status anywhere / anytime.
